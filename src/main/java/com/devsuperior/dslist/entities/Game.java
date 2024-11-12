@@ -20,6 +20,14 @@ public class Game {
 	@Column(name = "game_year")
 	private Integer year;
 	private String genre;
+	public Double getScore() {
+		return score;
+	}
+
+	public void setScore(Double score) {
+		this.score = score;
+	}
+
 	private String platforms;
 	private Double score;
 	private String imgUrl;
